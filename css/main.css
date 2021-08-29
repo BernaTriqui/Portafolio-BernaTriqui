@@ -53,6 +53,10 @@ nav .nav-menu {
 .profile-main-container .profile-container {
     display: flex;
 }
+.profile-container .container-info{
+    padding: 10px 50px 10px;
+    
+}
 
 .profile-main-proyects{
     padding: 0 50px 40px;
@@ -61,4 +65,18 @@ nav .nav-menu {
     border-bottom: 1px solid #cdd2da;
     padding-bottom: 35px;
     text-align: center;
+}
+.proyects-main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.proyect-container{
+    padding: 0 10px;
+    text-align: justify;
+}
+.proyect-container img{
+    border: 1px solid;
+    height: 210px;
+    
 }
